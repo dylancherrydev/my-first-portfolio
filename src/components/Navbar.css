@@ -1,20 +1,37 @@
 .navbar {
   width: 100%;
-  padding: 30px 0;
   box-sizing: border-box;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   display: flex;
   margin: 0 auto;
   align-items: center;
-  justify-content: flex-end;
   list-style-type: none;
+  font-size: 16px;
+  position:fixed;
+  top:0;
+  background-color: #000000;
 }
 .navbar a {
   color: #ffffff;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 40px;
+  justify-content: flex-end;
+  text-align: right;
 }
-
 .navbar a:hover {
   color: #ff6961;
+}
+.navbar .logo {
+  font-weight: bold;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+  white-space: nowrap;
+}
+.navbar-links {
+  width: 100%;
+  display: block;
+  text-align: right;
+  padding-right: 40px;
 }
