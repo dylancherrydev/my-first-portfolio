@@ -1,5 +1,7 @@
+@import "../breakpoints/breakpoints.scss";
+
 $linkHoverColor: #ff6961;
-$navbarSidezMargin: 40px;
+$navbarSidesMargin: 40px;
 
 .navbar {
   width: 100%;
@@ -13,6 +15,19 @@ $navbarSidezMargin: 40px;
   position:fixed;
   top:0;
   background-color: #000000;
+  @include media('<=phone') {
+    display: block;
+    border-bottom: 1px solid #ffffff;
+  }
+  .logo {
+    font-weight: bold;
+    display: flex;
+    margin-left: $navbarSidesMargin;
+    white-space: nowrap;
+    @include media('<=phone') {
+      display: none;
+    }
+  }
   a {
     color: #ffffff;
     text-decoration: none;
@@ -22,19 +37,22 @@ $navbarSidezMargin: 40px;
     &:hover {
       color: $linkHoverColor;
     }
-  }
-  .logo {
-    font-weight: bold;
-    letter-spacing: 1px;
-    display: flex;
-    align-items: center;
-    margin-left: $navbarSidezMargin;
-    white-space: nowrap;
+    @include media('<=phone') {
+      margin-left:0px;
+      margin-right:0px;
+    }
   }
   &-links {
     width: 100%;
     display: block;
     text-align: right;
-    padding-right: $navbarSidezMargin;
+    padding-right: $navbarSidesMargin;
+    @include media('<=phone') {
+      padding-top: 24px;
+      padding-bottom: 24px;
+      display: flex;
+      justify-content: space-evenly;
+      padding-right: 0px;
+    }
   }
 }
