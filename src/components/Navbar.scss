@@ -1,0 +1,40 @@
+$linkHoverColor: #ff6961;
+$navbarSidezMargin: 40px;
+
+.navbar {
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  list-style-type: none;
+  font-size: 16px;
+  position:fixed;
+  top:0;
+  background-color: #000000;
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 40px;
+    justify-content: flex-start;
+    text-align: right;
+    &:hover {
+      color: $linkHoverColor;
+    }
+  }
+  .logo {
+    font-weight: bold;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    margin-left: $navbarSidezMargin;
+    white-space: nowrap;
+  }
+  &-links {
+    width: 100%;
+    display: block;
+    text-align: right;
+    padding-right: $navbarSidezMargin;
+  }
+}
