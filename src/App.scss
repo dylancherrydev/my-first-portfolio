@@ -4,13 +4,21 @@
 }
 
 body {
-  padding-top: 100px;
+  padding-top: 60px;
   margin: 0;
   font-family: 'Courier Prime', 'Roboto', 'Arial';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#dark {
   background-color: #000000;
   color: #ffffff;
+}
+
+#light {
+  background-color: #ffff;
+  color: #000000;
 }
 
 code {
