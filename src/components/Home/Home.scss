@@ -11,8 +11,8 @@
   & span {
     font-weight: bold;
   }
+  padding-top: 28px;
   @include media('<=phone') {
-    padding-top: 28px;
     img {
       max-width: 80%;
     }
