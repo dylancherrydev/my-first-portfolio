@@ -1,6 +1,6 @@
-@import "../../breakpoints/breakpoints.scss";
+@import "../../styles/breakpoints.scss";
+@import "../../styles/variables.scss";
 
-$linkHoverColor: #ff6961;
 $navbarSidesMargin: 40px;
 
 .navbar {
@@ -29,14 +29,10 @@ $navbarSidesMargin: 40px;
     }
   }
   a {
-    color: #ffffff;
     text-decoration: none;
     margin-left: 40px;
     justify-content: flex-start;
     text-align: right;
-    &:hover {
-      color: $linkHoverColor;
-    }
     @include media('<=phone') {
       margin-left:0px;
       margin-right:0px;
@@ -55,4 +51,21 @@ $navbarSidesMargin: 40px;
       padding-right: 0px;
     }
   }
+}
+.button-toggle {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  font-size: 20px;
+  margin-left: 12px;
+}
+#dark {
+  @include darkMode;
+}
+#light {
+  @include lightMode;
 }
