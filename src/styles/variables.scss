@@ -1,0 +1,25 @@
+$linkHoverColor: #ff6961;
+$transitionAnimation: 0.4s ease;
+
+@mixin darkMode {
+  transition: $transitionAnimation;
+  background-color: #000000;
+  color: #ffffff;
+  a {
+    color: #ffffff;
+    &:hover {
+      color: $linkHoverColor;
+    }
+  }
+}
+@mixin lightMode {
+  transition: $transitionAnimation;
+  background-color: #ffff;
+  color: #000000;
+  a {
+    color: #000000;
+    &:hover {
+      color: $linkHoverColor;
+    }
+  }
+}
