@@ -1,7 +1,7 @@
 $linkHoverColor: #ff6961;
 $transitionAnimation: 0.4s ease;
-$containerMargin: 0px 15%;
-$containerPadding: 28px 0px;
+$containerMarginHorizontal: 15%;
+$containerPaddingVertical: 36px;
 $containerBorderBottomDark: 2px solid #ffffff;
 $containerBorderBottomLight: 2px solid #000000;
 
@@ -30,6 +30,6 @@ $containerBorderBottomLight: 2px solid #000000;
   }
 }
 @mixin containerDimensions {
-  padding: $containerPadding;
-  margin: $containerMargin;
+  padding: $containerPaddingVertical 0;
+  margin: 0 $containerMarginHorizontal;
 }
