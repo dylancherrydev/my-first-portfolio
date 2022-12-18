@@ -1,0 +1,6 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/variables.scss";
+
+.container-about {
+  @include containerDimensions;
+}
