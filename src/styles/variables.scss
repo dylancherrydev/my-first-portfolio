@@ -1,10 +1,14 @@
 $linkHoverColor: #ff6961;
 $transitionAnimation: 0.4s ease;
+$containerBorderWidth: 15%;
+$containerBorderBottomDark: 2px solid #ffffff;
+$containerBorderBottomLight: 2px solid #000000;
 
 @mixin darkMode {
   transition: $transitionAnimation;
   background-color: #000000;
   color: #ffffff;
+  border-bottom: $containerBorderBottomDark;
   a {
     color: #ffffff;
     &:hover {
@@ -16,6 +20,7 @@ $transitionAnimation: 0.4s ease;
   transition: $transitionAnimation;
   background-color: #ffff;
   color: #000000;
+  border-bottom: $containerBorderBottomLight;
   a {
     color: #000000;
     &:hover {

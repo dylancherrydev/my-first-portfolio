@@ -10,7 +10,7 @@ export default function Navbar({ darkness, setDarkness }) {
   <div className="navbar" id={darkness}>
     <div className='logo'>
       <h4>Dylan Cherry</h4>
-      <button class="button-toggle" onClick={() => toggleTheme()}> {darkness === "dark" ? "☼" : "☾"}</button>
+      <button className="button-toggle" onClick={() => toggleTheme()}> {darkness === "dark" ? "☼" : "☾"}</button>
     </div>
     <div className="navbar-links">
       <a href="/" alt="Home">Home</a>
