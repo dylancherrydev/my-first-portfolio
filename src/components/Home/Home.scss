@@ -26,6 +26,5 @@ img {
   }
 }
 .container-home {
-  padding: 28px 0px;
-  margin: 0px $containerBorderWidth;
+  @include containerDimensions;
 }

@@ -11,7 +11,7 @@ function App() {
     <div className="App" id={darkness}>
       <Navbar darkness={darkness} setDarkness={setDarkness}/>
       <Home darkness={darkness} />
-      <About darkness={darkness} />
+      <About />
     </div>
   );
 }
