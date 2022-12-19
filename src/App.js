@@ -1,16 +1,20 @@
-import './App.scss';
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
-import { useState } from 'react';
 import About from './components/About/About';
 
+// styles
+import './App.scss';
+
+// hooks
+import { useTheme } from './hooks/useTheme';
+
 function App() {
-  const [darkness, setDarkness] = useState('dark')
+  const { darkness, changeDarkness } = useTheme()
 
   return (
     <div className={`App ${darkness}`}>
-      <Navbar darkness={darkness} setDarkness={setDarkness}/>
-      <Home darkness={darkness} />
+      <Navbar />
+      <Home />
       <About />
     </div>
   );

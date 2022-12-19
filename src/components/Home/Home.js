@@ -1,10 +1,14 @@
+import { useTheme } from "../../hooks/useTheme"
+
 // styles
 import "./Home.scss"
 
 // images
 import hero from "../../assets/hero.png"
 
-export default function Home({ darkness }) {
+export default function Home() {
+  const { darkness } = useTheme()
+
   return (
     <div className={`container-home ${darkness}`}>
       <img src={hero} alt="Portrait of Dylan"/>
