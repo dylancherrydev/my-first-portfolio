@@ -63,9 +63,9 @@ $navbarSidesMargin: 40px;
   font-size: 20px;
   margin-left: 12px;
 }
-#dark {
+.dark {
   @include darkMode;
 }
-#light {
+.light {
   @include lightMode;
 }

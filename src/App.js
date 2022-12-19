@@ -8,7 +8,7 @@ function App() {
   const [darkness, setDarkness] = useState('dark')
 
   return (
-    <div className="App" id={darkness}>
+    <div className={`App ${darkness}`}>
       <Navbar darkness={darkness} setDarkness={setDarkness}/>
       <Home darkness={darkness} />
       <About />
