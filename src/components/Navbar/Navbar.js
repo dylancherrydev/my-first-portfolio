@@ -15,7 +15,7 @@ export default function Navbar() {
         <button className="button-toggle" onClick={() => changeDarkness("light")}>☼</button>
       )}
       {darkness === "light" && (
-        <button className="button-toggle" onClick={() => changeDarkness("dark")}>☽</button>
+        <button className="button-toggle" onClick={() => changeDarkness("dark")}>☾</button>
       )}
     </div>
     <div className="navbar-links">
