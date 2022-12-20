@@ -1,0 +1,56 @@
+.ts-list {
+  display:flex;
+  justify-content: center;
+}
+
+.ts-wrapper {
+  width: 80vmin;
+  aspect-ratio: 70 / 30;
+  display: flex;
+  background-color: transparent;
+  position: relative;
+  border: solid 4px white;
+  border-radius: 4px;
+}
+
+
+.ts-js {
+  width: 12.5%;
+  background-color: #edd431;
+}
+.ts-css {
+  width: 12.5%;
+  background-color: #2449d8;
+}
+.ts-html {
+  width: 12.5%;
+  background-color: #e44d27;
+}
+.ts-react {
+  width: 12.5%;
+  background-color: #62dafc;
+}
+.ts-git {
+  width: 12.5%;
+  background-color: #212121;
+}
+.ts-sql {
+  width: 12.5%;
+  background-color: #0079d6;
+}
+.ts-firebase{
+  width: 12.5%;
+  background-color: #e97c0f;
+}
+.ts-scss {
+  width: 12.5%;
+  background-color: #ce679a;
+}
+
+.ts-logo {
+  transition: width 0.75s;
+  &:hover {
+    width:100%;
+    transition: width 0.75s;
+  }
+}
