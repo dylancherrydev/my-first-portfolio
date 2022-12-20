@@ -9,7 +9,7 @@ import './App.scss';
 import { useTheme } from './hooks/useTheme';
 
 function App() {
-  const { darkness, changeDarkness } = useTheme()
+  const { darkness } = useTheme()
 
   return (
     <div className={`App ${darkness}`}>
