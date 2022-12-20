@@ -8,28 +8,28 @@ export default function TechStack() {
       <h1 className="section-title">Tech Stack</h1>
       <div className="ts-list">
         <div className="ts-wrapper">
-          <div className="ts-logo ts-git">
+          <div className="ts-item ts-git">
             Git
           </div>
-          <div className="ts-logo ts-css">
+          <div className="ts-item ts-css">
             CSS
           </div>
-          <div className="ts-logo ts-sql">
+          <div className="ts-item ts-sql">
             SQL
           </div>
-          <div className="ts-logo ts-react">
+          <div className="ts-item ts-react">
             React
           </div>
-          <div className="ts-logo ts-js">
+          <div className="ts-item ts-js">
             JavaScript
           </div>
-          <div className="ts-logo ts-firebase">
+          <div className="ts-item ts-firebase">
             FireBase
           </div>
-          <div className="ts-logo ts-html">
+          <div className="ts-item ts-html">
             HTML
           </div>
-          <div className="ts-logo ts-scss">
+          <div className="ts-item ts-scss">
             SCSS
           </div>
         </div>
