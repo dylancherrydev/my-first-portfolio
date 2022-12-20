@@ -29,11 +29,11 @@ export default function TechStack() {
             <div className="ts-box">
             </div>
           </div>
-          <div className="ts-item ts-firebase">
+          <div className="ts-item ts-js">
             <div className="ts-box">
             </div>
           </div>
-          <div className="ts-item ts-js">
+          <div className="ts-item ts-firebase">
             <div className="ts-box">
             </div>
           </div>
