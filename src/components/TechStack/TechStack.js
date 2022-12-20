@@ -1,4 +1,4 @@
-// current relevant tech stack = js, css, html, react, git, sql, firebase, scss
+// current relevant tech stack = js, css, html, react, git, sql, nodeJS, scss, firebase
 
 import "./TechStack.scss"
 
@@ -9,28 +9,41 @@ export default function TechStack() {
       <div className="ts-list">
         <div className="ts-wrapper">
           <div className="ts-item ts-git">
-            Git
+            <div className="ts-box">
+              <p>Git</p>
+            </div>
           </div>
           <div className="ts-item ts-css">
-            CSS
+            <div className="ts-box">
+            </div>
           </div>
           <div className="ts-item ts-sql">
-            SQL
+            <div className="ts-box">
+            </div>
           </div>
           <div className="ts-item ts-react">
-            React
+            <div className="ts-box">
+            </div>
           </div>
-          <div className="ts-item ts-js">
-            JavaScript
+          <div className="ts-item ts-node">
+            <div className="ts-box">
+            </div>
           </div>
           <div className="ts-item ts-firebase">
-            FireBase
+            <div className="ts-box">
+            </div>
+          </div>
+          <div className="ts-item ts-js">
+            <div className="ts-box">
+            </div>
           </div>
           <div className="ts-item ts-html">
-            HTML
+            <div className="ts-box">
+            </div>
           </div>
           <div className="ts-item ts-scss">
-            SCSS
+            <div className="ts-box">
+            </div>
           </div>
         </div>
       </div>

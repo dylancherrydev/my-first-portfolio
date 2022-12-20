@@ -1,9 +1,11 @@
+$transitionTime: 0.75s;
+
 .ts-list {
   display:flex;
   justify-content: center;
 }
-
 .ts-wrapper {
+  color: #000000;
   width: 80vmin;
   aspect-ratio: 70 / 30;
   display: flex;
@@ -12,45 +14,56 @@
   border: solid 4px white;
   border-radius: 4px;
 }
-
-
 .ts-js {
-  width: 12.5%;
+  width: 11.11%;
   background-color: #edd431;
 }
 .ts-css {
-  width: 12.5%;
+  width: 11.11%;
   background-color: #2449d8;
 }
 .ts-html {
-  width: 12.5%;
+  width: 11.11%;
   background-color: #e44d27;
 }
 .ts-react {
-  width: 12.5%;
+  width: 11.11%;
   background-color: #62dafc;
 }
 .ts-git {
-  width: 12.5%;
+  width: 11.11%;
   background-color: #212121;
 }
 .ts-sql {
-  width: 12.5%;
+  width: 11.11%;
   background-color: #0079d6;
 }
+.ts-node{
+  width: 11.11%;
+  background-color: #84ce25;
+}
 .ts-firebase{
-  width: 12.5%;
-  background-color: #e97c0f;
+  width: 11.11%;
+  background-color: #ffa816;
 }
 .ts-scss {
-  width: 12.5%;
+  width: 11.11%;
   background-color: #ce679a;
 }
-
+.ts-box {
+  visibility: hidden;
+  transition: $transitionTime ease;
+  text-align: center;
+  justify-content: center;
+}
 .ts-item {
-  transition: width 0.75s;
+  transition: width $transitionTime;
   &:hover {
-    width:100%;
-    transition: width 0.75s;
+    width:80%;
+    transition: width $transitionTime;
+    .ts-box {
+      visibility: visible;
+      transition: $transitionTime ease;
+    }
   }
 }
