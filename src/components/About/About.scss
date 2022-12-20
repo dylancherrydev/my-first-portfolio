@@ -4,3 +4,6 @@
 .container-about {
   @include containerDimensions;
 }
+.about-me {
+  padding-bottom: $containerPaddingVertical;
+}
