@@ -45,7 +45,7 @@ $transitionTime: 0.75s;
   width: 11.11%;
   background-color: #ffa816;
 }
-.ts-scss {
+.ts-sass {
   width: 11.11%;
   background-color: #ce679a;
 }
@@ -53,9 +53,11 @@ $transitionTime: 0.75s;
   visibility: hidden;
   transition: $transitionTime ease;
   text-align: center;
-  justify-content: center;
 }
 .ts-item {
+  display:flex;
+  justify-content: center;
+  align-items: center;
   transition: width $transitionTime;
   &:hover {
     width:80%;
