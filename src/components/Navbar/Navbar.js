@@ -1,3 +1,6 @@
+import * as Scroll from 'react-scroll';
+import { Link } from 'react-scroll';
+
 // hooks
 import { useTheme } from "../../hooks/useTheme"
 
@@ -5,14 +8,10 @@ import { useTheme } from "../../hooks/useTheme"
 import "./Navbar.scss"
 
 export default function Navbar() {
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    })
-  }
 
   const { darkness, changeDarkness } = useTheme()
+
+  let scroll=Scroll.animateScroll;
 
   return (
   <div className={`navbar ${darkness}`}>
@@ -26,8 +25,8 @@ export default function Navbar() {
       )}
     </div>
     <div className="navbar-links">
-      <a onClick={() => scrollToTop()} alt="Home">Home</a>
-      <a href="/" alt="About">About</a>
+      <Link onClick={() => scroll.scrollToTop()} alt="Home">Home</Link>
+      <Link to="scroll-about" spy={true} smooth={true} alt="About">About</Link>
       <a href="/" alt="Projects">Projects</a>
       <a href="/" alt="Contact">Contact</a>
     </div>
