@@ -5,6 +5,13 @@ import { useTheme } from "../../hooks/useTheme"
 import "./Navbar.scss"
 
 export default function Navbar() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
   const { darkness, changeDarkness } = useTheme()
 
   return (
@@ -19,7 +26,7 @@ export default function Navbar() {
       )}
     </div>
     <div className="navbar-links">
-      <a href="/" alt="Home">Home</a>
+      <a onClick={() => scrollToTop()} alt="Home">Home</a>
       <a href="/" alt="About">About</a>
       <a href="/" alt="Projects">Projects</a>
       <a href="/" alt="Contact">Contact</a>
