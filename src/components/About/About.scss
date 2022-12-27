@@ -3,6 +3,7 @@
 
 .container-about {
   @include containerDimensions;
+  padding-bottom: calc($containerPaddingVertical * 2);
 }
 .about-me {
   padding-bottom: $containerPaddingVertical;
