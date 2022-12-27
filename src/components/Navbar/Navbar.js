@@ -27,7 +27,7 @@ export default function Navbar() {
     <div className="navbar-links">
       <Link onClick={() => scroll.scrollToTop()} alt="Home">Home</Link>
       <Link to="scroll-about" spy={true} smooth={true} offset={-62.55} alt="About">About</Link>
-      <a href="/" alt="Projects">Projects</a>
+      <Link to="scroll-projects" spy={true} smooth={true} offset={-62.55} alt="Projects">Projects</Link>
       <a href="/" alt="Contact">Contact</a>
     </div>
   </div>
