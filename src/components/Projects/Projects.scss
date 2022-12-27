@@ -1,0 +1,14 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/variables.scss";
+
+.container-projects {
+  @include containerDimensions;
+  padding-bottom: $containerPaddingVertical;
+}
+
+.coming-soon {
+  font-size: 2em;
+  font-weight: normal;
+  padding-bottom: 1em;
+  color: #ff6961;
+}
