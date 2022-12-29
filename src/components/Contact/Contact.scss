@@ -1,0 +1,7 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/variables.scss";
+
+.container-contact {
+  @include containerDimensions;
+  padding-bottom: calc($containerPaddingVertical * 2);
+}
