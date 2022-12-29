@@ -4,7 +4,7 @@ import { useTheme } from "../../hooks/useTheme"
 import "./Projects.scss"
 
 export default function Projects() {
-  const darkness = useTheme()
+  const { darkness } = useTheme()
 
   return (
     <div className={`container-projects ${darkness}`} id="scroll-projects">
