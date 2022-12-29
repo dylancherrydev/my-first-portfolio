@@ -15,6 +15,7 @@ $navbarSidesMargin: 40px;
   position:fixed;
   top:0;
   background-color: #000000;
+  z-index: 1000;
   @include media('<=phone') {
     display: block;
     border-bottom: 1px solid #ffffff;
