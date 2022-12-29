@@ -8,7 +8,7 @@ export default function Contact() {
 
   return (
     <div className={`container-contact ${darkness}`} id="scroll-contact">
-      Contact
+      <h1 className="section-title">Contact</h1>
     </div>
   )
 }
