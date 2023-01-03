@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme"
-import ContactForm from "./ContactForm"
+import { ContactForm } from "./ContactForm"
 
 // styles
 import "./Contact.scss"
