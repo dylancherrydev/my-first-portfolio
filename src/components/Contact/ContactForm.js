@@ -34,13 +34,27 @@ export const ContactForm = () => {
     <div>
       <div className="container-form">
         <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="name" />
-          <label>E-mail Address</label>
-          <input type="email" name="email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+          <div className="div-form">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" />
+            </label>
+          </div>
+          <div className="div-form">
+            <label>
+              <span>E-mail Address</span>
+              <input type="email" name="email" />
+            </label>
+          </div>
+          <div className="div-form">
+            <label>
+              <span>Message</span>
+              <textarea name="message" />
+            </label>
+            <div className="div-form">
+              <input type="submit" value="Send" />
+            </div>
+          </div>
         </form>
       </div>
     </div>
