@@ -24,11 +24,11 @@ export default function Navbar() {
         <button className="button-toggle" onClick={() => changeDarkness("dark")}>☾</button>
       )}
     </div>
-    <div className="navbar-links">
-      <Link onClick={() => scroll.scrollToTop()} alt="Home">Home</Link>
-      <Link to="scroll-about" spy={true} smooth={true} offset={-62.55} alt="About">About</Link>
-      <Link to="scroll-projects" spy={true} smooth={true} offset={-62.55} alt="Projects">Projects</Link>
-      <Link to="scroll-contact" spy={true} smooth={true} offset={-62.55} alt="Contact">Contact</Link>
+    <div className="navbar-link-container">
+      <Link className='navbar-link' onClick={() => scroll.scrollToTop()} alt="Home">Home</Link>
+      <Link className='navbar-link' to="scroll-about" spy={true} smooth={true} offset={-62.55} alt="About">About</Link>
+      <Link className='navbar-link' to="scroll-projects" spy={true} smooth={true} offset={-62.55} alt="Projects">Projects</Link>
+      <Link className='navbar-link' to="scroll-contact" spy={true} smooth={true} offset={-62.55} alt="Contact">Contact</Link>
     </div>
   </div>
   )

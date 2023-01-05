@@ -39,17 +39,20 @@ $navbarSidesMargin: 40px;
       margin-right:0px;
     }
   }
-  &-links {
-    width: 100%;
-    display: block;
-    text-align: right;
-    padding-right: $navbarSidesMargin;
-    @include media('<=phone') {
-      padding-top: 24px;
-      padding-bottom: 24px;
-      display: flex;
-      justify-content: space-evenly;
-      padding-right: 0px;
+  &-link {
+    cursor: pointer;
+    &-container {
+      width: 100%;
+      display: block;
+      text-align: right;
+      padding-right: $navbarSidesMargin;
+      @include media('<=phone') {
+        padding-top: 24px;
+        padding-bottom: 24px;
+        display: flex;
+        justify-content: space-evenly;
+        padding-right: 0px;
+      }
     }
   }
 }
