@@ -32,15 +32,21 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <div className="container-form">
+      <div className="container-contact-form">
         <form ref={form} onSubmit={sendEmail}>
-          <label>Name</label>
-          <input type="text" name="name" />
-          <label>E-mail Address</label>
-          <input type="email" name="email" />
-          <label>Message</label>
-          <textarea name="message" />
-          <input type="submit" value="Send" />
+            <label className="label-contact-form">
+              <span>Name:</span>
+              <input className="label-contact-form-input" type="text" name="name" />
+            </label>
+            <label className="label-contact-form">
+              <span>E-mail Address:</span>
+              <input className="label-contact-form-input" type="email" name="email" />
+            </label>
+            <label className="label-contact-form">
+              <span>Message:</span>
+              <textarea className="label-contact-form-input" name="message" />
+            </label>
+              <input className="submit-contact-form" type="submit" value="Send" />
         </form>
       </div>
     </div>
