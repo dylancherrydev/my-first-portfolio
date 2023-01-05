@@ -1,7 +1,7 @@
 @import "../../styles/breakpoints.scss";
 @import "../../styles/variables.scss";
 
-$fontSize: 24px;
+$fontSize: 20px;
 
 .label-contact-form {
   display: flex;
@@ -10,7 +10,7 @@ $fontSize: 24px;
   padding: 32px 0;
   font-size: $fontSize;
   &-input {
-    font-size: calc($fontSize - 4px);
+    font-size: $fontSize;
     align-self: center;
     text-align: center;
     width: 300px;
