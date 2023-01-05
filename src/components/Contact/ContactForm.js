@@ -35,15 +35,15 @@ export const ContactForm = () => {
       <div className="container-form">
         <form ref={form} onSubmit={sendEmail}>
             <label className="label-form">
-              <span>Name</span>
+              <span>Name:</span>
               <input className="label-form-input" type="text" name="name" />
             </label>
             <label className="label-form">
-              <span>E-mail Address</span>
+              <span>E-mail Address:</span>
               <input className="label-form-input" type="email" name="email" />
             </label>
             <label className="label-form">
-              <span>Message</span>
+              <span>Message:</span>
               <textarea className="label-form-input" name="message" />
             </label>
               <input type="submit" value="Send" />

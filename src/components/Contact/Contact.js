@@ -9,7 +9,8 @@ export default function Contact() {
 
   return (
     <div className={`container-contact ${darkness}`} id="scroll-contact">
-      <h1 className="section-title">Contact</h1>
+      <h1 className="section-title">Contact Me</h1>
+      <h2 className="section-subtitle">Send me a message :)</h2>
       <ContactForm />
     </div>
   )
