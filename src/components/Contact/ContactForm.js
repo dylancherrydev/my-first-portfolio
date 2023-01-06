@@ -48,7 +48,9 @@ export const ContactForm = () => {
               <span>Message:</span>
               <textarea className="label-contact-form-input" name="message" placeholder="Your message here." required/>
             </label>
+            <div className="submit-div">
               <input className={`submit-contact-form ${darkness}`} type="submit" value="Send" />
+            </div>
         </form>
       </div>
     </div>
