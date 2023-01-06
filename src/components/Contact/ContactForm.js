@@ -36,15 +36,15 @@ export const ContactForm = () => {
         <form ref={form} onSubmit={sendEmail}>
             <label className="label-contact-form">
               <span>Name:</span>
-              <input className="label-contact-form-input" type="text" name="name" />
+              <input className="label-contact-form-input" type="text" name="name" placeholder="John Doe" required/>
             </label>
             <label className="label-contact-form">
               <span>E-mail Address:</span>
-              <input className="label-contact-form-input" type="email" name="email" />
+              <input className="label-contact-form-input" type="email" name="email" placeholder="email@email.com" required/>
             </label>
             <label className="label-contact-form">
               <span>Message:</span>
-              <textarea className="label-contact-form-input" name="message" />
+              <textarea className="label-contact-form-input" name="message" placeholder="Your message here." required/>
             </label>
               <input className="submit-contact-form" type="submit" value="Send" />
         </form>
