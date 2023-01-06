@@ -17,9 +17,15 @@ $fontSize: 20px;
     padding: 12px 0;
     border-radius: 8px;
     border: solid 2px #000000;
-    font-family: 'Courier Prime', 'Roboto', 'Arial';
+    font-family: $fontFamily;
   }
   span {
     padding-bottom: 8px;
   }
+}
+.submit-contact-form {
+  outline: none;
+  background: transparent;
+  border: 1px solid transparent;
+  color: white;
 }
