@@ -18,6 +18,9 @@ $fontSize: 20px;
     border-radius: 8px;
     border: solid 2px #000000;
     font-family: $fontFamily;
+    &:focus {
+      outline: none;
+    }
   }
   span {
     padding-bottom: 8px;
