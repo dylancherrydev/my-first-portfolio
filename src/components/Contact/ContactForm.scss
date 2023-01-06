@@ -24,8 +24,16 @@ $fontSize: 20px;
   }
 }
 .submit-contact-form {
+  padding-top: 16px;
   outline: none;
   background: transparent;
   border: 1px solid transparent;
-  color: white;
+  font-size: $fontSize;
+  cursor: pointer;
+  & .dark {
+    color: #ffffff;
+  }
+  & .light {
+    color: #000000;
+  }
 }

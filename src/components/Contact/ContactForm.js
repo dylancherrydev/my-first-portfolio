@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useTheme } from "../../hooks/useTheme";
 import emailjs from "@emailjs/browser";
 
 // styles
@@ -6,6 +7,7 @@ import "./ContactForm.scss";
 
 export const ContactForm = () => {
   const form = useRef();
+  const { darkness } = useTheme()
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,7 +34,7 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <div className="container-contact-form">
+      <div className={`container-contact-form`}>
         <form ref={form} onSubmit={sendEmail}>
             <label className="label-contact-form">
               <span>Name:</span>
@@ -46,7 +48,7 @@ export const ContactForm = () => {
               <span>Message:</span>
               <textarea className="label-contact-form-input" name="message" placeholder="Your message here." required/>
             </label>
-              <input className="submit-contact-form" type="submit" value="Send" />
+              <input className={`submit-contact-form ${darkness}`} type="submit" value="Send" />
         </form>
       </div>
     </div>
