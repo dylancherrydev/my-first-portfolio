@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import { useTheme } from "../../hooks/useTheme";
 import emailjs from "@emailjs/browser";
 
 // styles
@@ -6,6 +7,7 @@ import "./ContactForm.scss";
 
 export const ContactForm = () => {
   const form = useRef();
+  const { darkness } = useTheme()
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -32,21 +34,23 @@ export const ContactForm = () => {
 
   return (
     <div>
-      <div className="container-contact-form">
+      <div className={`container-contact-form`}>
         <form ref={form} onSubmit={sendEmail}>
             <label className="label-contact-form">
               <span>Name:</span>
-              <input className="label-contact-form-input" type="text" name="name" />
+              <input className="label-contact-form-input" type="text" name="name" placeholder="John Doe" required/>
             </label>
             <label className="label-contact-form">
               <span>E-mail Address:</span>
-              <input className="label-contact-form-input" type="email" name="email" />
+              <input className="label-contact-form-input" type="email" name="email" placeholder="email@email.com" required/>
             </label>
             <label className="label-contact-form">
               <span>Message:</span>
-              <textarea className="label-contact-form-input" name="message" />
+              <textarea className="label-contact-form-input" name="message" placeholder="Your message here." required/>
             </label>
-              <input className="submit-contact-form" type="submit" value="Send" />
+            <div className="submit-div">
+              <input className={`submit-contact-form ${darkness}`} type="submit" value="Send" />
+            </div>
         </form>
       </div>
     </div>

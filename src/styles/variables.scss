@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
 $linkHoverColor: #ff6961;
 $transitionAnimation: 0.4s ease;
 $containerMarginHorizontal: 15%;
 $containerPaddingVertical: 36px;
 $containerBorderBottomDark: 2px solid #ffffff;
 $containerBorderBottomLight: 2px solid #000000;
+$fontFamily: 'Courier Prime', 'Roboto', 'Arial';
 
 @mixin darkMode {
   transition: $transitionAnimation;

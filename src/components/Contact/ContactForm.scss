@@ -17,9 +17,30 @@ $fontSize: 20px;
     padding: 12px 0;
     border-radius: 8px;
     border: solid 2px #000000;
-    font-family: 'Courier Prime', 'Roboto', 'Arial';
+    font-family: $fontFamily;
+    &:focus {
+      outline: none;
+    }
   }
   span {
     padding-bottom: 8px;
   }
+}
+.submit-contact-form {
+  padding: 8px 16px;
+  outline: none;
+  background: transparent;
+  font-size: $fontSize;
+  font-family: $fontFamily;
+  border-radius: 8px;
+  cursor: pointer;
+  border-style: solid;
+  border-color: inherit;
+  &:hover{
+    border-color: $linkHoverColor;
+    color: $linkHoverColor;
+  }
+}
+.submit-div {
+  padding: 32px 0px;
 }
