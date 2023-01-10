@@ -13,6 +13,9 @@ $fontFamily: 'Courier Prime', 'Roboto', 'Arial';
   background-color: #000000;
   color: #ffffff;
   border-bottom: $containerBorderBottomDark;
+  & :nth-child(5) {
+    border-bottom: none;
+  }
   a {
     color: #ffffff;
     &:hover {
@@ -25,6 +28,9 @@ $fontFamily: 'Courier Prime', 'Roboto', 'Arial';
   background-color: #ffff;
   color: #000000;
   border-bottom: $containerBorderBottomLight;
+  & :nth-child(5) {
+    border-bottom: none;
+  }
   a {
     color: #000000;
     &:hover {
