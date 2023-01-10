@@ -18,6 +18,7 @@ export default function TechStack() {
   return (
     <div className="container-ts">
       <h1 className="section-title">Tech Stack</h1>
+      <p className="ts-msg">(Hover over each color of the rainbow)</p>
       <div className="ts-list">
         <div className="ts-wrapper">
           <div className="ts-item ts-git">
