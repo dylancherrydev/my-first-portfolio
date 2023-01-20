@@ -50,9 +50,13 @@ $transitionTime: 0.75s;
   background-color: #ce679a;
 }
 .ts-box {
-  visibility: hidden;
+  opacity: 0;
   text-align: center;
   color: #ffffff;
+  & p {
+    background-color: #0000009e;
+    padding: 3px 4px;
+  }
   img {
     width: 64px;
     height: 64px;
@@ -68,8 +72,8 @@ $transitionTime: 0.75s;
     width:100%;
     transition: width $transitionTime;
     .ts-box {
-      visibility: visible;
-      transition-delay: 0.5s;
+      opacity: 1;
+      transition: opacity 1s;
     }
   }
 }
