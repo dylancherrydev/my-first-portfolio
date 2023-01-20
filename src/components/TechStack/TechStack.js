@@ -54,13 +54,13 @@ export default function TechStack() {
           <div className="ts-item ts-js">
             <div className="ts-box">
               <img src={logo_javascript} alt="JavaScript logo" />
-              <p>JavaScript ES6</p>
+              <p>Java<br></br>Script<br></br>ES6</p>
             </div>
           </div>
           <div className="ts-item ts-firebase">
             <div className="ts-box">
               <img src={logo_firebase} alt="Firebase logo" />
-              <p>Firebase</p>
+              <p>Fire<br></br>base</p>
             </div>
           </div>
           <div className="ts-item ts-html">
