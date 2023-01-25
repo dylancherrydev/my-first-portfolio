@@ -3,6 +3,7 @@ import { ContactForm } from "./ContactForm"
 
 // styles
 import "./Contact.scss"
+import ContactIcons from "./ContactIcons"
 
 export default function Contact() {
   const { darkness } = useTheme()
@@ -12,6 +13,7 @@ export default function Contact() {
       <h1 className="section-title">Contact Me</h1>
       <h2 className="section-subtitle">Send me a message :)</h2>
       <ContactForm />
+      <ContactIcons />
     </div>
   )
 }
