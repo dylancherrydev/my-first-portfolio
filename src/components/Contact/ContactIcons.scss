@@ -1,0 +1,14 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/variables.scss";
+
+.contact {
+  &-icon {
+    font-size: 48px;
+    padding: 0 24px;
+  }
+  &-icons-container {
+    padding-top: 48px;
+    display: flex;
+    justify-content: center;
+  }
+}
