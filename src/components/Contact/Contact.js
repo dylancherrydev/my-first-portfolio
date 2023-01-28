@@ -14,6 +14,7 @@ export default function Contact() {
       <h2 className="section-subtitle">Send me a message :)</h2>
       <ContactForm />
       <ContactIcons />
+      <p className="copyright-message">© Dylan Cherry {new Date().getFullYear()}</p>
     </div>
   )
 }
