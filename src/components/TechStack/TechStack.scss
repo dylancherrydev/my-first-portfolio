@@ -1,82 +1,84 @@
 $transitionTime: 0.75s;
 
-.ts-list {
-  display:flex;
-  justify-content: center;
-}
-.ts-wrapper {
-  color: #000000;
-  width: 80vmin;
-  aspect-ratio: 70 / 30;
-  display: flex;
-  background-color: transparent;
-  position: relative;
-  border-radius: 4px;
-}
-.ts-js {
-  width: 11.11%;
-  background-color: #edd431;
-}
-.ts-css {
-  width: 11.11%;
-  background-color: #2449d8;
-}
-.ts-html {
-  width: 11.11%;
-  background-color: #e44d27;
-}
-.ts-react {
-  width: 11.11%;
-  background-color: #62dafc;
-}
-.ts-git {
-  width: 11.11%;
-  background-color: #212121;
-}
-.ts-sql {
-  width: 11.11%;
-  background-color: #0079d6;
-}
-.ts-node{
-  width: 11.11%;
-  background-color: #84ce25;
-}
-.ts-firebase{
-  width: 11.11%;
-  background-color: #ffa816;
-}
-.ts-sass {
-  width: 11.11%;
-  background-color: #ce679a;
-}
-.ts-box {
-  opacity: 0;
-  text-align: center;
-  color: #ffffff;
-  & p {
-    background-color: #0000009e;
-    padding: 3px 4px;
+.ts{
+  &-list {
+    display:flex;
+    justify-content: center;
   }
-  img {
-    width: 64px;
-    height: 64px;
-    background-color: #ffffff;
+  &-wrapper {
+    color: #000000;
+    width: 80vmin;
+    aspect-ratio: 70 / 30;
+    display: flex;
+    background-color: transparent;
+    position: relative;
+    border-radius: 4px;
   }
-}
-.ts-item {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  transition: width $transitionTime;
-  &:hover {
-    width:100%;
-    transition: width $transitionTime;
-    .ts-box {
-      opacity: 1;
-      transition: opacity 1s;
+  &-js {
+    width: 11.11%;
+    background-color: #edd431;
+  }
+  &-css {
+    width: 11.11%;
+    background-color: #2449d8;
+  }
+  &-html {
+    width: 11.11%;
+    background-color: #e44d27;
+  }
+  &-react {
+    width: 11.11%;
+    background-color: #62dafc;
+  }
+  &-git {
+    width: 11.11%;
+    background-color: #212121;
+  }
+  &-sql {
+    width: 11.11%;
+    background-color: #0079d6;
+  }
+  &-node{
+    width: 11.11%;
+    background-color: #84ce25;
+  }
+  &-firebase{
+    width: 11.11%;
+    background-color: #ffa816;
+  }
+  &-sass {
+    width: 11.11%;
+    background-color: #ce679a;
+  }
+  &-box {
+    opacity: 0;
+    text-align: center;
+    color: #ffffff;
+    & p {
+      background-color: #0000009e;
+      padding: 3px 4px;
+    }
+    img {
+      width: 64px;
+      height: 64px;
+      background-color: #ffffff;
     }
   }
-}
-.ts-msg {
-  padding-bottom: 24px;
+  &-item {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transition: width $transitionTime;
+    &:hover {
+      width:28%;
+      transition: width $transitionTime;
+      .ts-box {
+        opacity: 1;
+        transition: opacity 1s;
+      }
+    }
+  }
+  &-msg {
+    padding-bottom: 24px;
+  }  
 }

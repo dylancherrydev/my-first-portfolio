@@ -18,7 +18,7 @@ export default function TechStack() {
   return (
     <div className="container-ts">
       <h1 className="section-title">Tech Stack</h1>
-      <p className="ts-msg">(Hover over each color of the rainbow)</p>
+      <p className="ts-msg">(Hover over each color)</p>
       <div className="ts-list">
         <div className="ts-wrapper">
           <div className="ts-item ts-git">
@@ -30,7 +30,7 @@ export default function TechStack() {
           <div className="ts-item ts-css">
             <div className="ts-box">
               <img src={logo_css} alt="CSS logo" />
-              <p>CSS 3</p>
+              <p>CSS</p>
             </div>
           </div>
           <div className="ts-item ts-sql">
@@ -54,19 +54,19 @@ export default function TechStack() {
           <div className="ts-item ts-js">
             <div className="ts-box">
               <img src={logo_javascript} alt="JavaScript logo" />
-              <p>Java<br></br>Script<br></br>ES6</p>
+              <p>JavaScript</p>
             </div>
           </div>
           <div className="ts-item ts-firebase">
             <div className="ts-box">
               <img src={logo_firebase} alt="Firebase logo" />
-              <p>Fire<br></br>base</p>
+              <p>Firebase</p>
             </div>
           </div>
           <div className="ts-item ts-html">
             <div className="ts-box">
               <img src={logo_html} alt="HTML logo" />
-              <p>HTML 5</p>
+              <p>HTML</p>
             </div>
           </div>
           <div className="ts-item ts-sass">
