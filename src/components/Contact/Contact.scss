@@ -3,5 +3,8 @@
 
 .container-contact {
   @include containerDimensions;
-  padding-bottom: calc($containerPaddingVertical * 2);
+  padding-bottom: calc($containerPaddingVertical);
+}
+.copyright-message {
+  padding-top: 20px;
 }
