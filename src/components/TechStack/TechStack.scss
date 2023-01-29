@@ -90,3 +90,8 @@ $transitionTime: 0.75s;
     display: none;
   }
 }
+.container-ts-mobile {
+  @include media('>tablet') {
+    display: none;
+  }
+}

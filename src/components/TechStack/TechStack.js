@@ -79,6 +79,18 @@ export default function TechStack() {
           </div>
         </div>
       </div>
+      <div className="container-ts-mobile">
+        <h1 className="section-title">Tech Stack</h1>
+        <p>git</p>
+        <p>CSS</p>
+        <p>SQL</p>
+        <p>React</p>
+        <p>Node JS</p>
+        <p>JavaScript</p>
+        <p>Firebase</p>
+        <p>HTML</p>
+        <p>Sass</p>
+      </div>
     </div>
   )
 }
