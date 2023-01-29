@@ -18,66 +18,66 @@ export default function TechStack() {
   return (
     <div className="container-ts">
       <div className="container-ts-desktop">
-      <h1 className="section-title">Tech Stack</h1>
-      <p className="ts-msg">(Hover over each color)</p>
-      <div className="ts-list">
-        <div className="ts-wrapper">
-          <div className="ts-item ts-git">
-            <div className="ts-box">
-              <img src={logo_git} alt="git logo" />
-              <p>git</p>
+        <h1 className="section-title">Tech Stack</h1>
+        <p className="ts-msg">(Hover over each color)</p>
+        <div className="ts-list">
+          <div className="ts-wrapper">
+            <div className="ts-item ts-git">
+              <div className="ts-box">
+                <img src={logo_git} alt="git logo" />
+                <p>git</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-css">
-            <div className="ts-box">
-              <img src={logo_css} alt="CSS logo" />
-              <p>CSS</p>
+            <div className="ts-item ts-css">
+              <div className="ts-box">
+                <img src={logo_css} alt="CSS logo" />
+                <p>CSS</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-sql">
-            <div className="ts-box">
-              <img src={logo_sql} alt="SQL logo" />
-              <p>SQL</p>
+            <div className="ts-item ts-sql">
+              <div className="ts-box">
+                <img src={logo_sql} alt="SQL logo" />
+                <p>SQL</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-react">
-            <div className="ts-box">
-              <img src={logo_react} alt="React logo" />
-              <p>React</p>
+            <div className="ts-item ts-react">
+              <div className="ts-box">
+                <img src={logo_react} alt="React logo" />
+                <p>React</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-node">
-            <div className="ts-box">
-              <img src={logo_node} alt="Node JS logo" />
-              <p>Node JS</p>
+            <div className="ts-item ts-node">
+              <div className="ts-box">
+                <img src={logo_node} alt="Node JS logo" />
+                <p>Node JS</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-js">
-            <div className="ts-box">
-              <img src={logo_javascript} alt="JavaScript logo" />
-              <p>JavaScript</p>
+            <div className="ts-item ts-js">
+              <div className="ts-box">
+                <img src={logo_javascript} alt="JavaScript logo" />
+                <p>JavaScript</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-firebase">
-            <div className="ts-box">
-              <img src={logo_firebase} alt="Firebase logo" />
-              <p>Firebase</p>
+            <div className="ts-item ts-firebase">
+              <div className="ts-box">
+                <img src={logo_firebase} alt="Firebase logo" />
+                <p>Firebase</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-html">
-            <div className="ts-box">
-              <img src={logo_html} alt="HTML logo" />
-              <p>HTML</p>
+            <div className="ts-item ts-html">
+              <div className="ts-box">
+                <img src={logo_html} alt="HTML logo" />
+                <p>HTML</p>
+              </div>
             </div>
-          </div>
-          <div className="ts-item ts-sass">
-            <div className="ts-box">
-              <img src={logo_sass} alt="Sass logo" />
-              <p>Sass</p>
+            <div className="ts-item ts-sass">
+              <div className="ts-box">
+                <img src={logo_sass} alt="Sass logo" />
+                <p>Sass</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
       </div>
     </div>
   )
