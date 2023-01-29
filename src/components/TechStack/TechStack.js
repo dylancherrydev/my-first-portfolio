@@ -17,6 +17,7 @@ import logo_sql from "../../assets/logo_sql.png"
 export default function TechStack() {
   return (
     <div className="container-ts">
+      <div className="container-ts-desktop">
       <h1 className="section-title">Tech Stack</h1>
       <p className="ts-msg">(Hover over each color)</p>
       <div className="ts-list">
@@ -76,6 +77,7 @@ export default function TechStack() {
             </div>
           </div>
         </div>
+      </div>
       </div>
     </div>
   )

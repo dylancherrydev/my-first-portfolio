@@ -1,6 +1,9 @@
+@import "../../styles/breakpoints.scss";
+@import "../../styles/variables.scss";
+
 $transitionTime: 0.75s;
 
-.ts{
+.ts {
   &-list {
     display:flex;
     justify-content: center;
@@ -81,4 +84,9 @@ $transitionTime: 0.75s;
   &-msg {
     padding-bottom: 24px;
   }  
+}
+.container-ts-desktop {
+  @include media('<=tablet') {
+    display: none;
+  }
 }
