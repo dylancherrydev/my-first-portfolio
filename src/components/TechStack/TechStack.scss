@@ -16,6 +16,10 @@ $transitionTime: 0.75s;
     background-color: transparent;
     position: relative;
     border-radius: 4px;
+    &-mobile {
+      display: flex;
+      flex-wrap: wrap;
+    }
   }
   &-js {
     width: 11.11%;
@@ -66,6 +70,13 @@ $transitionTime: 0.75s;
       height: 64px;
       background-color: #ffffff;
     }
+    &-mobile {
+      flex-basis: 33.333333%;
+      padding: 8px 0;
+      & p {
+        font-size: 12px;
+      }
+    }
   }
   &-item {
     display:flex;
@@ -83,7 +94,7 @@ $transitionTime: 0.75s;
   }
   &-msg {
     padding-bottom: 24px;
-  }  
+  }
 }
 .container-ts-desktop {
   @include media('<=tablet') {
@@ -93,5 +104,9 @@ $transitionTime: 0.75s;
 .container-ts-mobile {
   @include media('>tablet') {
     display: none;
+  }
+  img {
+    width: 36px;
+    height: 36px;
   }
 }

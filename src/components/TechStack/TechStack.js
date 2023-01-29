@@ -81,15 +81,44 @@ export default function TechStack() {
       </div>
       <div className="container-ts-mobile">
         <h1 className="section-title">Tech Stack</h1>
-        <p>git</p>
-        <p>CSS</p>
-        <p>SQL</p>
-        <p>React</p>
-        <p>Node JS</p>
-        <p>JavaScript</p>
-        <p>Firebase</p>
-        <p>HTML</p>
-        <p>Sass</p>
+        <div className="ts-wrapper-mobile">
+          <div className="ts-box-mobile">
+            <img src={logo_git} alt="git logo" />
+            <p>git</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_css} alt="CSS logo" />
+            <p>CSS</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_sql} alt="SQL logo" />
+            <p>SQL</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_react} alt="React logo" />
+            <p>React</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_node} alt="Node JS logo" />
+            <p>Node JS</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_javascript} alt="JavaScript logo" />
+            <p>JavaScript</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_firebase} alt="Firebase logo" />
+            <p>Firebase</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_html} alt="HTML logo" />
+            <p>HTML</p>
+          </div>
+          <div className="ts-box-mobile">
+            <img src={logo_sass} alt="Sass logo" />
+            <p>Sass</p>
+          </div>
+        </div>
       </div>
     </div>
   )
