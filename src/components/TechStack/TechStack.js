@@ -10,6 +10,7 @@ import logo_git from "../../assets/logo_git.png"
 import logo_html from "../../assets/logo_html.png"
 import logo_javascript from "../../assets/logo_javascript.png"
 import logo_node from "../../assets/logo_node.png"
+import logo_python from "../../assets/logo_python.png"
 import logo_react from "../../assets/logo_react.png"
 import logo_sass from "../../assets/logo_sass.png"
 import logo_sql from "../../assets/logo_sql.png"
@@ -76,6 +77,12 @@ export default function TechStack() {
                 <p>Sass</p>
               </div>
             </div>
+            <div className="ts-item ts-python">
+              <div className="ts-box">
+                <img src={logo_python} alt="Python logo" />
+                <p>Python</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -117,6 +124,11 @@ export default function TechStack() {
           <div className="ts-box-mobile">
             <img src={logo_sass} alt="Sass logo" />
             <p>Sass</p>
+          </div>
+          <div className="ts-box-mobile"></div>
+          <div className="ts-box-mobile">
+            <img src={logo_python} alt="Python logo" />
+            <p>Python</p>
           </div>
         </div>
       </div>
