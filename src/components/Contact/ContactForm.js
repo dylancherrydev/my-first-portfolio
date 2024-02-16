@@ -42,7 +42,7 @@ export const ContactForm = () => {
             </label>
             <label className="label-contact-form">
               <span>E-mail Address:</span>
-              <input className="label-contact-form-input" type="email" name="email" placeholder="email@email.com" required/>
+              <input className="label-contact-form-input" type="email" name="email" placeholder="user@email.com" required/>
             </label>
             <label className="label-contact-form">
               <span>Message:</span>
